@@ -13,7 +13,7 @@
   /* Background colors */
   --basic-bg-cl: #ffffff;
   --hdr-ftr-bg-cl: #2f303a;
-  --overline-grad-cl: rgba(47, 48, 58, 0.4);
+  --overline-bg-cl: #C4C4C4;
   --accent-hdr-cl: #188ce8;
   --team-bg-cl: #f5f4fa;
   --accent-bg-cl: #2196f3;
@@ -184,18 +184,20 @@ img {
 /* Head */
 
 .head {
+  background: var(--hdr-ftr-bg-cl);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: var(--hdr-ftr-bg-cl);
 
-  min-width: 1600px;
+  max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/head/Img-Overlay.png), url(../images/head/Teamwork.jpg), url(../images/head/Teamwork-Bg.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/head/Teamwork.jpg);
+  background-color: var(--overline-bg-cl);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .head-title {
