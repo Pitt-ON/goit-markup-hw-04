@@ -181,6 +181,20 @@ img {
   color: var(--accent-txt-cl);
 }
 
+.header-contacts-mail::before {
+  content: '✉';
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.header-contacts-tel::before {
+  content: '☏';
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
 /* Head */
 
 .head {
@@ -251,6 +265,33 @@ img {
 
 .features-item {
   flex-basis: calc((100% - (3 * var(--gap-card))) / 4);
+}
+
+.features-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--team-bg-cl);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/features/antenna\ 1.svg);  
+}
+
+.icon-clock::before {
+  background-image: url(../images/features/clock\ 1.svg);  
+}
+
+.icon-diagram::before {
+  background-image: url(../images/features/diagram\ 1.svg);  
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/features/astronaut\ 1.svg);  
 }
 
 .features-title {
