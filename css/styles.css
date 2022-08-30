@@ -271,9 +271,9 @@ img {
   content: '';
   display: block;
   height: 120px;
+  border-radius: 4px;
   margin-bottom: 30px;
   background-color: var(--team-bg-cl);
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
