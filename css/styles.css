@@ -187,14 +187,8 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.head,
-.page-footer {
   background: var(--hdr-ftr-bg-cl);
-}
 
-.overlay {
   min-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -348,6 +342,7 @@ img {
 /* Footer */
 
 .page-footer {
+  background: var(--hdr-ftr-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
 }
