@@ -13,7 +13,7 @@
   /* Background colors */
   --basic-bg-cl: #ffffff;
   --hdr-ftr-bg-cl: #2f303a;
-  --overline-bg-cl: #C4C4C4;
+  --overline-bg-cl: #c4c4c4;
   --accent-hdr-cl: #188ce8;
   --team-bg-cl: #f5f4fa;
   --accent-bg-cl: #2196f3;
@@ -221,7 +221,8 @@ img {
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/head/Teamwork.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/head/Teamwork.jpg);
   background-color: var(--overline-bg-cl);
   background-repeat: no-repeat;
   background-position: center;
@@ -286,19 +287,19 @@ img {
 }
 
 .icon-antenna::before {
-  background-image: url(../images/features/antenna\ 1.svg);  
+  background-image: url(../images/features/antenna.svg);
 }
 
 .icon-clock::before {
-  background-image: url(../images/features/clock\ 1.svg);  
+  background-image: url(../images/features/clock.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../images/features/diagram\ 1.svg);  
+  background-image: url(../images/features/diagram.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../images/features/astronaut\ 1.svg);  
+  background-image: url(../images/features/astronaut.svg);
 }
 
 .features-title {
@@ -377,6 +378,34 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
+}
+
+.icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url(../images/team/instagram.svg), url(../images/team/twitter.svg), url(../images/team/facebook.svg), url(../images/team/linkedin.svg);
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50px;
+
+}
+
+/* Clients */
+
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-txt-cl);
+}
+
+.clients-item {
+  --items: 6;
 }
 
 /* Footer */
