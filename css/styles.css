@@ -275,7 +275,20 @@ img {
   --items: 4;
 }
 
-.features-item::before {
+.features-fon {
+  display: flex;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: var(--team-bg-cl);
+}
+
+.features-icon {
+  display: block;
+  margin: auto;  
+}
+
+/* .features-item::before {
   content: '';
   display: block;
   height: 120px;
@@ -300,7 +313,7 @@ img {
 
 .icon-astronaut::before {
   background-image: url(../images/features/astronaut.svg);
-}
+} */
 
 .features-title {
   margin-bottom: 10px;
