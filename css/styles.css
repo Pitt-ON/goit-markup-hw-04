@@ -9,7 +9,7 @@
   --light-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
   --logo-txt-cl: #000000;
-  --icon-cl: #AFB1B8;
+  --icon-cl: #afb1b8;
 
   /* Background colors */
   --basic-bg-cl: #ffffff;
@@ -176,6 +176,10 @@ img {
 
 .header-contacts-mail,
 .header-contacts-tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -195,18 +199,8 @@ img {
   color: var(--accent-txt-cl);
 }
 
-.header-contacts-mail::before {
-  content: '✉';
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
-
-.header-contacts-tel::before {
-  content: '☏';
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
+.mail-icon {
+  fill: currentColor;
 }
 
 /* Head */
@@ -286,7 +280,7 @@ img {
 
 .features-icon {
   display: block;
-  margin: auto;  
+  margin: auto;
 }
 
 .features-title {
@@ -345,7 +339,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-wrap {  
+.team-wrap {
   padding: 30px;
 }
 
@@ -387,7 +381,7 @@ img {
 }
 
 .social-icon {
-  fill: currentColor; 
+  fill: currentColor;
 }
 
 .social-link:hover,
