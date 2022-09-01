@@ -288,33 +288,6 @@ img {
   margin: auto;  
 }
 
-/* .features-item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-color: var(--team-bg-cl);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-antenna::before {
-  background-image: url(../images/features/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/features/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/features/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/features/astronaut.svg);
-} */
-
 .features-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -371,7 +344,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.cont-team {
+.cont-team {  
   padding: 30px;
 }
 
@@ -391,18 +364,27 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
+  margin-bottom: 16px;
 }
 
-.icon {
-  display: inline-block;
+.team-list-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
-  background-image: url(../images/team/instagram.svg), url(../images/team/twitter.svg), url(../images/team/facebook.svg), url(../images/team/linkedin.svg);
-  
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+}
 
+.social-icon {
+  
 }
 
 /* Clients */
