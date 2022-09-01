@@ -9,6 +9,7 @@
   --light-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
   --logo-txt-cl: #000000;
+  --icon-cl: #AFB1B8;
 
   /* Background colors */
   --basic-bg-cl: #ffffff;
@@ -344,7 +345,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.cont-team {  
+.team-wrap {  
   padding: 30px;
 }
 
@@ -377,14 +378,22 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
   width: 44px;
   height: 44px;
-  background-color: transparent;
+  color: var(--icon-cl);
+  background-color: var(--basic-bg-cl);
   border-radius: 50%;
 }
 
 .social-icon {
-  
+  fill: currentColor; 
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--light-txt-cl);
+  background-color: var(--accent-bg-cl);
 }
 
 /* Clients */
