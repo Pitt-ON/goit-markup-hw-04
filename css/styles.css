@@ -81,7 +81,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .section {
@@ -400,7 +400,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--basic-txt-cl);
-}  
+}
 
 .client-list {
   display: flex;
@@ -564,12 +564,6 @@ img {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
 }
-
-/* Постоянный hover первой кнопки */
-/* .filters-button.current {
-  color: var(--light-txt-cl);
-  background: var(--accent-bg-cl);
-} */
 
 .portfolio-item:hover,
 .portfolio-item:focus {
